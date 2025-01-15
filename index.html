@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/888402c30f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <a href="#" class="toptop">
+                <i class="fa-solid fa-circle-arrow-up fa-beat" style="color: #a80c0c;"></i>
+                </a>
+            <nav>
+                <img src="images/logo.png" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certification</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <h1><span>Deepak Kumar Jena</span><br></h1>
+                <h2>Data Analyst | BI Developer</h2>
+                <h3>I'm a passionate Data Analyst & Well versed in </h3>
+                <span id="element"></span>
+                <br>
+                <br>
+                
+                <a href="https://github.com/Deepakjen07" class="myw">My works</a> 
+            </div>  
+
+            <div class="querysolved">
+                <span id="number" data-value="300">0</span> <span>+</span><span> &nbsp;SQL Queries Solved</span>
+            </div>  
+        </div>
+    </div>
+    <!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme pic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p class="describe">Highly analytical and detail-oriented Fresher Data Analyst with a strong foundation
+                    <br> in statistical analysis, data cleaning, customer behaviour analysis and 
+                    <br>Proven ability to interpret complex data sets and transform <br> them into actionable insights.
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('courses')">Experiences</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                    <li><label>Profile:</label> <span>Data Analytics & BI Developer</span></li><br>
+                                    <li> <label>Domain: </label> <span>Finance, Retail, E-commerce</span></li><br>
+                                    <li> <label>BI Tools: </label> <span>Power BI &amp; Tableau</span></li><br>
+                                    <li> <label>Language: </label> <span>Python, R </span></li><br>
+                                    <li> <label>Database: </label> <span>MySQL &amp; SQL Server</span></li><br>
+                                    <li> <label>Other Skills: </label> <span>Ms Excel, Git, Chat GPT</span></li><br>
+                                </li>
+                                <a href="https://www.linkedin.com/in/deepjena14" class="ld">LINKEDIN</a>    
+                            </ul>  
+                        </div>
+                        <div class="tab-contents edu-done" id="education">
+                            <ul>
+                                <li> <lable>2021-2024:</lable><span>B.Tech in Electronics & Communication engineering at Gandhi Institute For Technology(GIFT), BBSR </span></li><br><br>
+                                <li> <lable>2019-2020:</lable><span>12th in Science at DAV Higher Secondary Schools, TTPS, Odllable </span></li><br><br>
+                                <li> <lable>-------2018:</lable><span>Completed my 10th at Neheru High Schools, Angul, Odisha </span></li><br><br>
+                            </ul>
+                        </div>
+                        <div class="tab-contents course-done" id="courses">
+                            <ul>
+                                <li><label>Data Analyst Intern:Excelr</label><br><br>
+                                    <span>Participated in hands-on projects that solved real-time data analytics problems, leading to a 30% improvement in problem-solving
+                                        efficiency.
+                                        . Developed proficiency in data analysis tools and techniques, including data cleaning, visualization, and interpretation, resulting in a
+                                        25% increase in data processing speed. Developed interesting dashboard during internship.</span></li>
+                            <br>
+
+                            <li><label>Solved 300 + SQL Queries</label><br><br>
+                            <span>Provideing Bussiness Solution by retriving key insights from data through SQL Queries.</span></li>
+                            <br>
+                            <li><label>Solved 100 +  Python Questions</label><br><br>
+                                <span>Retriving different key insights using python libraries.</span></li>
+
+                            
+                            
+                            </ul>
+                        </div>        
+                        </div>          
+                </div>         
+            </div> 
+        </div>
+    </div>
+
+
+    <!-- -------certification section-------- -->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Certification</h1>
+                    <div class="services-list">
+                        <div class="serve">
+                            <i class="fa-solid fa-chart-simple"></i></i>
+                            <h2>Data Analyst</h2>
+                            <P>I have successfully completed the Data Analytics Certification Program at Excelr. <br><br>
+                                <summary>📌 Key Learnings:</summary><br>
+                                <ul>
+                                    <li>Mastered tools and technologies such as Excel (basic and advanced), SQL, Tableau, Power BI, Python, and R.</li>
+                                    <li>It also includes training in business statistics and data visualization.</li>
+                                    <li>Expertise in data collection, cleaning, visualization, and dashboard creation for real-world applications.</li>
+                                    </ul>
+                                <br>
+                            💡 It provides Hands-on experience with projects across industries like healthcare, finance, HR, and e-commerce</P>
+                            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjGoJL4252KAxXFbQ8CHXrwMLwYABABGgJ0Yg&ae=2&aspm=1&co=1&ase=5&gclid=CjwKCAiA6t-6BhA3EiwAltRFGEWQ80z5PHzwIN-hzNtvsZLDlCuYzvBnrggSqDXCw_4fFtyzT-hUixoCwEMQAvD_BwE&ohost=www.google.com&cid=CAESVeD2IBKg1joxTGET7oYBXP3lQX7ihSDVWsswNB_iVb3cFmGtau6YIsvlqyVmomqySO5ZSk_iqDiRdyczIkQXIFJz0XlBvS9gQ7er02xzAgFBGbzRtsY&sig=AOD64_0b5rokz0ITh5Y8-JT4xZQKlQD5YA&q&adurl&ved=2ahUKEwiohI34252KAxXmh1YBHciJOGEQ0Qx6BAgrEAE">learn more</a><br>
+                            <a href="https://www.linkedin.com/posts/deepjena14_i-am-thrilled-to-share-that-i-have-successfully-activity-7266089197743013889-3fEo?utm_source=share&utm_medium=member_desktop" class="myw">CERTIFICATE</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-database"></i>"></i>
+                            <h2>Database</h2>
+                            <P>I’ve successfully completed the SQL with MySQL Certification on Udemy! Gaining comprehensive knoweledge about database management and query writing. <br><br>
+
+                                <summary>📌 Key Learnings:</summary> <br>
+                                <ul>
+                                    <li>Mastery of SQL for creating, managing, and querying databases.</li>
+                                    <li> Writing complex queries using JOINs, subqueries, and aggregate functions.</li>
+                                    <li>Working with real datasets to extract insights and solve business challenges.</li>
+                                </ul><br>
+                                🎯 This certification has strengthened my data management abilities and equipped me to handle diverse data-driven scenarios effectively.</P>
+                            <a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/?couponCode=LEARNNOWPLANS">learn more</a>
+                        </div>      
+                        <div>
+                            <i class="fa-brands fa-python"></i>"></i>
+                            <h2>Programming Language</h2>
+                            <P>I’ve successfully completed the Python Programming Certification on Udemy, gaining hands-on experience with Python and its powerful libraries! <br><br>
+                                <summary>📌 Key Learnings: </summary><br>
+                                <ul>
+                                    <li>Mastered Python fundamentals: syntax, loops, conditionals, and </li>
+                                    <li>Explored Pandas for data manipulation and cleaning.</li>
+                                    <li>Utilized NumPy for efficient numerical computations. & Visualized data using Matplotlib.<br><br>
+                                    </li>
+                                </ul>
+                                💡 This certification has not only improved my problem-solving and coding abilities but also equipped me to handle data analysis tasks efficiently.</P>
+                            <a href="https://www.udemy.com/course/python-foundations-for-data-analysis/?couponCode=LEARNNOWPLANS">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------portfolio--------- -->
+
+            <div id="Projects">
+                <div class="container">
+                    <h1 class="workname">My Work</h1>
+                    <h2 class="pro">Projects</h2>
+                    <p class="workdes">Below are the sample data analytics projects on SQL, Python, Power BI and Tableau.</p>
+                    <div class="work-list">
+                        <div class="Work">
+                            <img src="images/Netflix.png">
+                            <div class="layer">
+                                <h3>Sentimate_Analysis_Project</h3>
+                                <p>The Project Helps to understand <br>various key insights for Bussiness growth</p>
+                                <a href="https://github.com/Deepakjen07/Netflix_Sentimate_Analysis_Project"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="Work">
+                            <img src="images/spotify_logo.jpg">
+                            <div class="layer">
+                                <h3>Music app</h3>
+                                <p>The app connects <br>anything you happended for anything</p>
+                                <a href="https://github.com/Deepakjen07/Spotify_Project"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="Work">
+                            <img src="images/blinkit-seeklogo.png">
+                            <div class="layer">
+                                <h3>healthcare app</h3>
+                                <p>The app connects <br>anything you happended for anything</p>
+                                <a href="https://github.com/Deepakjen07/Blinkit_Power_BI_End-to-End_Porject"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="https://github.com/Deepakjen07?tab=repositories" class="btn">See more</a>
+                </div>
+            </div>
+
+            <!-- -----------contact---------- -->
+             <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <h2 class="sub">below are the details to reach at me</h2>
+                            <p><i class="fa-sharp fa-solid fa-paper-plane"></i><a href="mailto:djena3162@gmail.com">djena3162@gmail.com</a></p><br>
+                            <p><i class="fa-solid fa-phone-volume"></i><a href="tel://6371599100">+ 91 6371599100</a></p><br><br><br><br>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            </div><br>
+                            <a href="images/Deepak_Jena_Resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                                
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Deepak.made with <i class="fa-solid fa-heart"></i> by easy Tutorials</p>
+                </div>
+             </div>
+
+
+
+
+
+
+
+    <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyBadRg0XF1RBQ7S7O0XuzfIHrFAPorCxx6v0UXkPjLRYjyIhUtZBzNgT9EUxKwSov9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+    strings: ['SQL', 'Power BI', 'Python', 'MS Excel', 'Tableau', 'Bussiness Mathematics and Statistics'],
+    typeSpeed: 50,
+    });
+</script>
+
+<script>
+    const number = document.getElementById('number');
+    const updateCount = () => {
+        const value = parseInt(number.dataset.value);
+        let initialValue = 0;
+    const increaseCount = setInterval(() => {
+        initialValue +=1;
+
+        if(initialValue > value)
+    {
+        number.textContent = `${value}`;
+        clearInterval(increaseCount);
+        return;
+    }
+    number.textContent = `${initialValue}`;
+    }, 5);
+};
+
+updateCount()
+</script>
+
+</body>
+</html>
